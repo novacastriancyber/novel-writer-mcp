@@ -29,8 +29,9 @@ All novel project files are stored under your approved roots (configured at star
 
 See [docs/INSTALL.md](docs/INSTALL.md) for full installation instructions on Windows 11 and homelab deployment.
 
-```bash
-cd server
+```powershell
+git clone https://github.com/novacastriancyber/novel-writer-mcp.git C:\Projects\mcp-novel
+cd C:\Projects\mcp-novel\server
 npm install
 npm run build
 ```

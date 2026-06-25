@@ -27,7 +27,7 @@ Optional:
 
 ```powershell
 # If you have git:
-git clone https://github.com//novacastriancyber/mcp-novel-writer.git C:\Projects\mcp-novel
+git clone https://github.com/novacastriancyber/novel-writer-mcp.git C:\Projects\mcp-novel
 
 # Or extract the zip into C:\Projects\mcp-novel
 ```
