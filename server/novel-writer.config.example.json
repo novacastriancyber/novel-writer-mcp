@@ -1,0 +1,23 @@
+{
+  "approvedRoots": ["C:\\Users\\YourName\\Documents\\novels"],
+  "llamacpp": {
+    "url": "http://localhost:8080",
+    "modelAlias": "mistral-7b"
+  },
+  "openrouterApiKeyEnv": "OPENROUTER_API_KEY",
+  "defaultModelRoutes": [
+    { "task": "outline", "provider": "host" },
+    { "task": "draft", "provider": "host" },
+    { "task": "continuity", "provider": "host" },
+    { "task": "revision", "provider": "host" },
+    { "task": "export", "provider": "host" }
+  ],
+  "exportDefaults": {
+    "formats": ["markdown", "docx"],
+    "outputDir": "exports"
+  },
+  "contentRating": "PG-13",
+  "researchCitationMode": "strict",
+  "logRetentionDays": 90,
+  "contextBudgetTokens": 100000
+}
